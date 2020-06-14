@@ -1,0 +1,16 @@
+# <feature-name>:
+#   title: [String] <the-title-of-feature-name>
+#   description: [String] <the-description-of-feature-name>
+#   author: [String] <the-author-of-feature-name>
+#   default: [String | Number | Boolean] <the-default-value-of-feature>
+#   is_feature: [Number | Boolean] <0-or-1 | true-or-false> # A feature flag could be used as a global app configuration option also, in this case use `0 or false`
+#   expiration_date: [Date] <yyyy/mm/dd>
+
+
+sample.feature:
+  title: 'sample.feature'
+  description: 'This is a sample feature flag'
+  author: 'Chandresh Rajkumar Manonmani <cs1193@gmail.com>'
+  default: true
+  is_feature: true
+  expiration_date: 2020/12/31
