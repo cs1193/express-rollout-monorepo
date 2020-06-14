@@ -21,6 +21,7 @@
   "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> (chandreshrm.name)",
   "license": "MIT",
   "dependencies": {
+    "debug": "^4.1.1",
     "lodash": "^4.17.15"
   }
 }
