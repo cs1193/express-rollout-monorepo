@@ -1,4 +1,4 @@
-const debug = require('debug')('express-rollout');
+const debug = require('debug')('express:rollout');
 
 const _ = require('lodash');
 
