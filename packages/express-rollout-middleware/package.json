@@ -3,6 +3,14 @@
   "version": "0.0.0",
   "description": "",
   "main": "lib/index.js",
+  "keywords": [
+    "feature-flags",
+    "rollout",
+    "feature-toggle",
+    "express",
+    "express-middleware",
+    "middleware"
+  ],
   "directories": {
     "lib": "lib"
   },
