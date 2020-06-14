@@ -1,5 +1,6 @@
-const debug = require('debug')('express:rollout');
+const path = require('path');
 
+const debug = require('debug')('express:rollout');
 const _ = require('lodash');
 
 const ALLOWED_EXTENSIONS = ['json', 'yml', 'yaml'];
