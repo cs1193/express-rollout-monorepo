@@ -26,3 +26,5 @@ class Rollout {
     }
   }
 }
+
+module.exports = Rollout;

@@ -32,6 +32,7 @@ app.use(rollout.middleware);
 ///////////////// rollout middleware //////////////////
 
 app.get('/', (req, res) => {
+  console.log(req.rollout);
   res.json({
     message: 'rollout-example'
   })
