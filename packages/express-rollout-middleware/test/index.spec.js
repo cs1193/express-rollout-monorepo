@@ -1,12 +1,8 @@
 const supertest = require('supertest');
 
-const app = require('./example-app');
+const app = require('./fixtures/example-app');
 
 describe('test', () => {
-  it('should test that true === true', () => {
-    expect(true).toBe(true)
-  });
-
   it('get works', (done) => {
     supertest(app)
       .head('/')

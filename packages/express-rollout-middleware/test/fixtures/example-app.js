@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express');
 
-const expressRollout = require('../lib');
+const expressRollout = require('../../lib');
 const rollout = expressRollout.initialize({
   featureMetaFile: path.resolve(__dirname, './fixtures/feature-meta.yml')
 });

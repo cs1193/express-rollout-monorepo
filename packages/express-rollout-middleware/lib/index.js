@@ -1,5 +1,7 @@
 const debug = require('debug')('express:rollout');
 
+const Rollout = require('./rollout');
+
 function initialize(options) {
   let {
     featureMetaFile // Read from json, yaml, local FS, S3 bucket, etc.
@@ -7,7 +9,9 @@ function initialize(options) {
 
   return {
     middleware(req, res, next) {
-      console.log('express-rollout middleware');
+      const rolloutClient = new Rollout(options);
+      req.rollout = rolloutClient;
+
       debug('express-rollout middleware');
       next();
     }
