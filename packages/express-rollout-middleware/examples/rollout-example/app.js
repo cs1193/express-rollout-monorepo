@@ -24,6 +24,9 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, './views'));
+
 ///////////////// rollout middleware //////////////////
 app.use(rollout.middleware);
 ///////////////// rollout middleware //////////////////
@@ -32,6 +35,12 @@ app.get('/', (req, res) => {
   res.json({
     message: 'rollout-example'
   })
+});
+
+app.get('/rollout-page', (req, res) => {
+  res.render('index', {
+    message: 'rollout-view-example'
+  });
 });
 
 const server = http.createServer(app);
