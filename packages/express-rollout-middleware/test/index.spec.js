@@ -1,9 +1,9 @@
 const supertest = require('supertest');
 
-const app = require('./fixtures/example-app');
+const app = require('./app');
 
-describe('test', () => {
-  it('get works', (done) => {
+describe('app:rollout:test', () => {
+  it('should get request', (done) => {
     supertest(app)
       .head('/')
       .expect(200)
