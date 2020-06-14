@@ -15,7 +15,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preversion": "git checkout master",
+    "postversion": "git push origin master && git push origin master --tags"
   },
   "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> (chandreshrm.name)",
   "license": "MIT",
