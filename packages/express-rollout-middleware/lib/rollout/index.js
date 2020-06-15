@@ -1,12 +1,12 @@
 const debug = require('debug')('express:rollout');
 
 const { isAllowedFileExtension } = require('./helpers');
-const Cloud = require('./cloud');
+const Storage = require('./storage');
 
 class Rollout {
   constructor(options) {
     const {
-      cloud,
+      storage,
       bucketName,
       featureMetaFile,
       featureMetaFileVersion
@@ -18,7 +18,7 @@ class Rollout {
     // }
 
     // this.featureMetaFile = featureMetaFile;
-    this.cloud = new Cloud(cloud, bucketName, featureMetaFile, featureMetaFileVersion);
+    this.storage = new Storage(storage, bucketName, featureMetaFile, featureMetaFileVersion);
   }
 
   isFeatureEnabled(featureKey, attributes) {

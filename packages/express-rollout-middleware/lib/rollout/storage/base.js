@@ -1,7 +1,7 @@
-class BaseCloud {
+class BaseStorage {
   constructor() {
     console.log('BaseCloud');
   }
 }
 
-module.exports = BaseCloud;
+module.exports = BaseStorage;
