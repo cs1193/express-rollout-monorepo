@@ -13,4 +13,4 @@ class Storage {
   }
 }
 
-module.exports = Cloud;
+module.exports = Storage;
