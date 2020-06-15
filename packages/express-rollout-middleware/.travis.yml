@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "4.9"
+  - "6.17"
+  - "8.17"
+  - "10.20"
+  - "12.16"
+  - "14.2"
+cache:
+  directories:
+    - node_modules
+script:
+  - |
+    # Run tests
+    npm run test
+after_script:
+  - |
+    if [[ -d .nyc_output ]]; then
+      npm i -D coveralls@2
+      nyc report --reporter=text-lcov | coveralls
+    fi
