@@ -1,5 +1,13 @@
+const crypto = require('crypto');
+
 class BaseStorage {
-  constructor() {
+  constructor(options, bucketName) {
+    this.options = options;
+    this.bucketName = bucketName;
+    this.storageInstance = null;
+  }
+
+  isBucketExists() {
 
   }
 }

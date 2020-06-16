@@ -24,6 +24,10 @@
     "url": "https://github.com/cs1193/express-rollout/issues"
   },
   "dependencies": {
+    "@azure/storage-blob": "^12.1.2",
+    "@google-cloud/storage": "^5.1.0",
+    "aws-sdk": "^2.697.0",
+    "bluebird": "^3.7.2",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
