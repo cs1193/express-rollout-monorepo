@@ -1,7 +1,11 @@
 {
-  "name": "root",
+  "name": "@cs1193/express-rollout",
   "private": true,
+  "scripts": {
+    "dep-graph": "./node_modules/.bin/lerna-dependency-graph"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "lerna-dependency-graph": "^1.0.2"
   }
 }
