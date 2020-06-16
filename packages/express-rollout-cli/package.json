@@ -1,0 +1,31 @@
+{
+  "name": "express-rollout-cli",
+  "version": "0.0.0",
+  "description": "**Work In Progress**",
+  "main": "index.js",
+  "bin": {
+    "express-rollout-cli": "index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "log-symbols": "^4.0.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs1193/express-rollout-cli.git"
+  },
+  "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com chandresh.rm@gmail.com> (chandreshrm.name)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cs1193/express-rollout-cli/issues"
+  },
+  "homepage": "https://github.com/cs1193/express-rollout-cli#readme"
+}
