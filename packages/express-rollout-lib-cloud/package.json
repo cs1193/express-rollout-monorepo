@@ -1,5 +1,5 @@
 {
-  "name": "@cs1193/express-rollout-lib-cloud",
+  "name": "express-rollout-lib-cloud",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com>",
@@ -28,5 +28,6 @@
   },
   "devDependencies": {
     "jest": "^26.0.1"
-  }
+  },
+  "gitHead": "a3b25b326b1d97234fbdc2dcce93aa06db33e9e3"
 }
