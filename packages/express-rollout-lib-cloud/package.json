@@ -1,0 +1,26 @@
+{
+  "name": "express-rollout-lib-cloud",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com>",
+  "homepage": "https://github.com/cs1193/express-rollout#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs1193/express-rollout.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/cs1193/express-rollout/issues"
+  }
+}
