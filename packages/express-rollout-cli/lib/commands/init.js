@@ -1,5 +1,7 @@
+const art = require('../core/art');
+
 const main = async args => {
-  console.log('main');
+  art();
 };
 
 module.exports = {

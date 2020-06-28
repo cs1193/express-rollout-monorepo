@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
+    "conf": "^6.2.4",
+    "figlet": "^1.4.0",
     "log-symbols": "^4.0.0",
     "yargs": "^15.3.1"
   },
