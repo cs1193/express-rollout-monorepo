@@ -28,7 +28,7 @@
     "@google-cloud/storage": "^5.1.0",
     "aws-sdk": "^2.697.0",
     "bluebird": "^3.7.2",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "jest": "^26.0.1"
